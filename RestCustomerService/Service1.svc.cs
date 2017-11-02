@@ -19,6 +19,7 @@ namespace RestCustomerService
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
     public class Service1 : IService1
     {
+        //http://miclrestcustomerservice.azurewebsites.net/Service1.svc/customers
         //http://localhost:19844/Service1.svc/customers
 
         public string GetData()
